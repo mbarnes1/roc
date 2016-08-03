@@ -33,7 +33,7 @@ class RocCurve(object):
         # Reverse all the arrays and lists to prob is in ascending order
         self.labels = self.labels[::-1]
         self.prob = self.prob[::-1]
-        self.tpr = self.prob[::-1]
+        self.tpr = self.tpr[::-1]
         self.recall = self.recall[::-1]
         self.fpr = self.fpr[::-1]
         self.precision = self.precision[::-1]
